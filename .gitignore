@@ -1,0 +1,92 @@
+# ==================== InternPilot 项目 .gitignore ====================
+# 说明：子目录的 .gitignore 文件（如 intern-pilot-api/.gitignore）会与此文件叠加生效
+
+# ==================== IDE 和编辑器 ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==================== Kiro AI 助手 ====================
+.kiro/
+
+# ==================== Python 虚拟环境 ====================
+venv/
+env/
+ENV/
+.venv/
+
+# ==================== 项目文档（不上传到 GitHub）====================
+docs/
+
+# ==================== 数据库文件 ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== 上传文件目录 ====================
+uploads/
+!uploads/screenshots/
+uploads/screenshots/*.png
+uploads/screenshots/*.jpg
+uploads/screenshots/*.gif
+
+# ==================== 敏感配置文件 ====================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==================== 日志文件 ====================
+*.log
+logs/
+
+# ==================== 操作系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 临时文件 ====================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ==================== Python 相关（根目录级别）====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==================== Node.js 相关（根目录级别）====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================== 构建产物 ====================
+dist/
+build/
+*.egg-info/
+
+# ==================== 测试相关 ====================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==================== 爬虫相关 ====================
+# BOSS 直聘爬虫的会话和输出
+boss-job-crawler/sessions/
+boss-job-crawler/output/*.xlsx
+boss-job-crawler/logs/*.log
+
+# 但保留目录结构说明文件
+!boss-job-crawler/sessions/.gitkeep
+!boss-job-crawler/output/.gitkeep
+!boss-job-crawler/logs/.gitkeep

@@ -1,0 +1,4 @@
+# 字体反爬破解依赖
+fonttools>=4.38.0
+ddddocr>=1.4.11
+Pillow>=9.0.0
