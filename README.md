@@ -1,6 +1,6 @@
 <div align="center">
 
-# InternPilot - AI 简历优化与求职助手
+ # InternPilot - AI 简历优化与求职助手
 
 <p align="center">
   <img src="uploads/screenshots/logo.png" alt="InternPilot Logo" width="200"/>
@@ -434,6 +434,18 @@ npm run dev
 <div align="center">
   <img src="uploads/screenshots/enhancement-suggestions.png" alt="增强建议" width="800"/>
   <p><em>生成针对性的简历优化建议，支持 Markdown 导出</em></p>
+</div>
+
+### AI 简历优化编辑器
+
+<div align="center">
+  <img src="uploads/screenshots/resume-optimization.png" alt="简历优化" width="800"/>
+  <p><em>根据 AI 建议智能优化简历内容，实时预览优化效果</em></p>
+</div>
+
+<div align="center">
+  <img src="uploads/screenshots/optimization-output.png" alt="优化输出" width="800"/>
+  <p><em>输出优化后的简历，支持版本对比和一键导出</em></p>
 </div>
 
 ### 批量职位分析

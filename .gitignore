@@ -28,11 +28,10 @@ docs/
 *.sqlite3
 
 # ==================== 上传文件目录 ====================
-uploads/
+# 根目录的 uploads/ 只保留 screenshots/ 子目录，其他内容忽略
+# 注意：不能直接忽略整个 uploads/ 目录，否则子目录的排除规则会失效
+uploads/*
 !uploads/screenshots/
-uploads/screenshots/*.png
-uploads/screenshots/*.jpg
-uploads/screenshots/*.gif
 
 # ==================== 敏感配置文件 ====================
 .env
